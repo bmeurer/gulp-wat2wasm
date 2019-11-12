@@ -1,0 +1,24 @@
+{
+  "name": "gulp-wat2wasm",
+  "version": "1.0.13",
+  "description": "GULP plugin to compile .wat to .wasm files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebAssembly",
+    "wabt"
+  ],
+  "author": "Benedikt Meurer <benedikt.meurer@googlemail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0",
+    "wabt": "^1.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmeurer/gulp-wat2wasm"
+  }
+}
