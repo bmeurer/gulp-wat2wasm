@@ -1,6 +1,6 @@
 {
   "name": "gulp-wat2wasm",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "GULP plugin to compile .wat to .wasm files",
   "main": "index.js",
   "scripts": {
