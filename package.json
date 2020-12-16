@@ -15,7 +15,7 @@
   "dependencies": {
     "through2": "^3.0.1",
     "vinyl": "^2.2.0",
-    "wabt": "^1.0.19"
+    "wabt": "^1.0.20"
   },
   "repository": {
     "type": "git",
