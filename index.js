@@ -8,7 +8,7 @@ module.exports = function wat2wasm(features = {}, options = {}) {
 		fs.readFile(file.path, {encoding}, async (err, buffer) => {
 			if (!err) {
 				const { parseWat } = await wabtPromise;
-				const module = parseWat(file.basename, buffer);
+				const module = parseWat(file.basename, buffer, features);
 				const contents = Buffer.from(module.toBinary(options).buffer);
 				const path = file.path.replace(/.wat$/, '.wasm');
 				const base = file.base;
